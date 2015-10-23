@@ -49,3 +49,7 @@ TODO:
 - adding Linux and Mac OSX support.
 - adding AppStore classes ctypes.
 
+
+License:
+----------
+Wadi is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (http://creativecommons.org/licenses/by-nc-sa/4.0/) Permissions beyond the scope of this license may be available at http://sensepost.com/contact us/.
