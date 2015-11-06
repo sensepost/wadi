@@ -3195,7 +3195,7 @@ function createEvt(elm,evt) {
                 else if(evt[1] == 'CompositionEvent') {
                         returnArray = returnArray.concat('var '+e+'= new WheelEvent("'+evt[0]+'",{ "bubbles":'+randbool()+', "cancelable":'+randbool()+', "view": window , "detail":'+rint(ra(INT_NUMS))+', "which":'+rint(ra(INT_NUMS))+', "data":"'+string(rint(STR_NUM))+'"})'); 
                 }
-		else if (evt[1] == 'ProgrssEvent') {
+		else if (evt[1] == 'ProgressEvent') {
 			returnArray = returnArray.concat('var '+e+'= new PorgressEvent("'+evt[0]+'",{ "bubbles":'+randbool()+', "cancelable":'+randbool()+', "lengthComputable":'+randbool()+', "loaded":'+rint(ra(INT_NUMS))+', "total":'+rint(ra(INT_NUMS))+'})')
 		}
 		else if (evt[1] == 'AnimationEvent') {
