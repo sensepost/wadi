@@ -1385,7 +1385,7 @@ HTMLDivElementInterface = {
 HTMLDListElementInterface = {
 	'Name':'HTMLDListElement',
 	'Attributes':[
-		['comapct',[function() { return randbool() },''],'high']
+		['compact',[function() { return randbool() },''],'high']
 	].concat(HTMLElementInterface.Attributes),
 	'Methods':HTMLElementInterface.Methods,
 	'tagName':'DL',
@@ -1395,7 +1395,7 @@ HTMLDListElementInterface = {
 HTMLDirElementInterface = {
 	'Name':'HTMLDirElement',
 	'Attributes':[
-		['comapct',[function() { return randbool() },''],'high']
+		['compact',[function() { return randbool() },''],'high']
 	].concat(HTMLElementInterface.Attributes),
 	'Methods':HTMLElementInterface.Methods,
 	'tagName':'DIR',
@@ -1405,7 +1405,7 @@ HTMLDirElementInterface = {
 HTMLMenuElementInterface = {
 	'Name':'HTMLMenuElement',
 	'Attributes':[
-		['comapct',[function() { return randbool() },''],'high']
+		['compact',[function() { return randbool() },''],'high']
 	].concat(HTMLElementInterface.Attributes),
 	'Methods':HTMLElementInterface.Methods,
 	'tagName':'MENU',
@@ -1816,7 +1816,7 @@ HTMLOListElementInterface = {
 	'Attributes':[
 		['reversed',[function() { return randbool()},''],'high'],
 		['start',[function() {return rint(2) ? rint(ra(INT_NUMS)):randoms()},''],'high'],
-		['comapct',[function() { return randbool() },''],'high'],
+		['compact',[function() { return randbool() },''],'high'],
 		['type',['1','a','A','i','1','I',''],'high']
 	].concat(HTMLElementInterface.Attributes),
 	'Methods':HTMLElementInterface.Methods,
