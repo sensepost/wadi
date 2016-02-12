@@ -42,7 +42,12 @@ Running:
 - The javascript Grammar file.
 - Port for the web server to listen on.
 ```
-
+Running Wadi With NodeFuzz:
+----------
+Simply add the wadi-nodefuzz-module.js and randoms.js to NodeFuzz Modules directory, and call it using:
+```
+node nodefuzz.js -m ./Modules/wadi-nodefuzz-module.js -c [CONFIG]
+```
 TODO:
 ----------
 - adding a multiple windows browser support.
