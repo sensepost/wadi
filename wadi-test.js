@@ -2158,7 +2158,7 @@ HTMLTableCellElementInterface = {
 	'style':HTMLElementInterface.style
 }
 
-HTMLTableHeaderCellElementInterface = {
+HTMLTableHeaderCellElementInterface1 = {
 	'Name':'HTMLTableHeaderCellElement',
 	'Attributes':[
 		['scope',['row','col','rowgroup','colgroup',''],'high'],
@@ -2491,7 +2491,7 @@ var ElementArray = [
 	[HTMLVarElementInterface,'high'],
 	[HTMLVideoElementInterface,''],
 	[HTMLWbrElementInterface,'high'],
-	[HTMLTableHeaderCellElementInterface,'high']
+	[HTMLTableHeaderCellElementInterface1,'high']
 ]
 
 //traversal.IDL
