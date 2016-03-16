@@ -1251,7 +1251,7 @@ HTMLFormElementInterface = {
 		['noValidate',["novalidate",''],'readonly']
 	].concat(HTMLElementInterface.Attributes),
 	'Methods':[
-		['sumbit',[function() {return ''}],'high'],
+		['submit',[function() {return ''}],'high'],
 		['reset',[function() {return ''}],'high']
 		//['checkValidity',[function() {return ''}]]
 	].concat(HTMLElementInterface.Methods),
