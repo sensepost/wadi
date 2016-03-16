@@ -1887,7 +1887,7 @@ HTMLInputElementInterface = {
 		//['checkValidity',[function() {return randbool()},'']],
 		['setCustomValidity',[function() {return '"'+string(rint(STR_NUM))+'"'},'']],//,''
 		['select',[function() {return ''}],'high'],
-		['setRangeText',[function() {return rint(2) ? '"'+string(rint(STR_NUM))+'"':'""'},function() {return rint(2) ? '"'+string(rint(STR_NUM))+'",'+rint(ra(INT_NUMS))+","+rint(ra(INT_NUMS)):'"'+string(rint(STR_NUM))+'",'+randoms()+","+randoms()},function() {return rint(2) ? '"'+string(rint(STR_NUM))+'",'+rint(ra(INT_NUMS))+","+rint(ra(INT_NUMS))+","+ra(['"select"','"start"','"end"','"preserve"','""']):'"'+string(rint(STR_NUM))+'",'+randoms()+","+randoms()+",",ra(['"select"','"start"','"end"','"preserve"','""'])},''],'high'],
+		['setRangeText',[function() {return rint(2) ? '"'+string(rint(STR_NUM))+'"':'""'},function() {return rint(2) ? '"'+string(rint(STR_NUM))+'",'+rint(ra(INT_NUMS))+","+rint(ra(INT_NUMS)):'"'+string(rint(STR_NUM))+'",'+randoms()+","+randoms()},function() {return rint(2) ? '"'+string(rint(STR_NUM))+'",'+rint(ra(INT_NUMS))+","+rint(ra(INT_NUMS))+","+ra(['"select"','"start"','"end"','"preserve"','""']):'"'+string(rint(STR_NUM))+'",'+randoms()+","+randoms()+","+ra(['"select"','"start"','"end"','"preserve"','""'])},''],'high'],
 		['setSelectionRange',[function() {return rint(2) ? rint(ra(INT_NUMS))+","+rint(ra(INT_NUMS)):randoms()+","+randoms()},function() {return rint(2) ? rint(ra(INT_NUMS))+","+rint(ra(INT_NUMS))+","+ra(['"forward"','"backward"','"none"','""']):randoms()+","+randoms()+","+ra(['"forward"','"backward"','"none"','""'])}],'high']
 	].concat(HTMLElementInterface.Methods),
 	'tagName':'INPUT',
