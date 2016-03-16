@@ -18,6 +18,7 @@ strokeStyleFunc = function() {
 			returnString += 'ctx.createPattern(img,"'+ra(['repeat','repeat-x','repeat-y','no-repeat',''])+'")'
 			break;
 	}
+	return returnString
 }
 
 hitRegion = function() {
