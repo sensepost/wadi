@@ -1820,7 +1820,7 @@ HTMLOListElementInterface = {
 		['type',['1','a','A','i','1','I',''],'high']
 	].concat(HTMLElementInterface.Attributes),
 	'Methods':HTMLElementInterface.Methods,
-	'tagName':'OLIST',
+	'tagName':'OL',
 	'style':HTMLElementInterface.style
 }
 
@@ -2350,7 +2350,7 @@ HTMLUListElementInterface = {
 		['type',['1','1','A','a','i','I',''],'high']
 	].concat(HTMLElementInterface.Attributes),
 	'Methods':HTMLElementInterface.Methods,
-	'tagName':'ULIST',
+	'tagName':'UL',
 	'style':HTMLElementInterface.style
 }
 
