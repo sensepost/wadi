@@ -1,4 +1,4 @@
-require('./randoms.js')
+require('./randoms-nodefuzz-module.js')
 
 ATTR_NUM = 10
 MTD_NUM = 10
