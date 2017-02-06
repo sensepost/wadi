@@ -15,7 +15,7 @@ strokeStyleFunc = function() {
 			returnString += 'ctx.createRadialGradient('+ra([rint(ra(INT_NUMS)),floatValue()])+','+ra([rint(ra(INT_NUMS)),floatValue()])+','+ra([rint(ra(INT_NUMS)),floatValue()])+','+ra([rint(ra(INT_NUMS)),floatValue()])+','+ra([rint(ra(INT_NUMS)),floatValue()])+','+ra([rint(ra(INT_NUMS)),floatValue()])+')'
 			break;
 		case 2:
-			returnString += 'ctx.createPattern(img,"'+ra(['repeat','repeat-x','repeat-y','no-repeat',''])+'")'
+			returnString += 'ctx.createPattern(img,\''+ra(['repeat','repeat-x','repeat-y','no-repeat',''])+'\')'
 			break;
 	}
 	return returnString
